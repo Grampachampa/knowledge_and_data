@@ -44,7 +44,7 @@ for index, row in df.iterrows():
     
 
 serialize_graph(g)
-save_graph(g, 'train_ontology.ttl')
+save_graph(g, 'Ontology/train_ontology.ttl')
 
 
    
