@@ -1,0 +1,907 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix train: <http://www.semanticweb.org/gramp/ontologies/2023/9/untitled-ontology-23/> .
+
+<http://www.semanticweb.org/gramp/ontologies/2023/9/untitled-ontology-23> a owl:Ontology .
+
+train:2022-01-01 a train:Date .
+
+train:2022-01-02 a train:Date .
+
+train:2022-01-03 a train:Date .
+
+train:2022-01-04 a train:Date .
+
+train:2022-01-05 a train:Date .
+
+train:2022-01-06 a train:Date .
+
+train:2022-01-07 a train:Date .
+
+train:2022-01-08 a train:Date .
+
+train:2022-01-09 a train:Date .
+
+train:2022-01-10 a train:Date .
+
+train:2022-01-11 a train:Date .
+
+train:2022-01-12 a train:Date .
+
+train:2022-01-13 a train:Date .
+
+train:2022-01-14 a train:Date .
+
+train:2022-01-15 a train:Date .
+
+train:2022-01-16 a train:Date .
+
+train:2022-01-17 a train:Date .
+
+train:2022-01-18 a train:Date .
+
+train:2022-01-19 a train:Date .
+
+train:2022-01-20 a train:Date .
+
+train:2022-01-21 a train:Date .
+
+train:2022-01-22 a train:Date .
+
+train:2022-01-23 a train:Date .
+
+train:2022-01-24 a train:Date .
+
+train:2022-01-25 a train:Date .
+
+train:2022-01-26 a train:Date .
+
+train:2022-01-27 a train:Date .
+
+train:2022-01-28 a train:Date .
+
+train:2022-01-29 a train:Date .
+
+train:2022-01-30 a train:Date .
+
+train:2022-01-31 a train:Date .
+
+train:2022-02-01 a train:Date .
+
+train:2022-02-02 a train:Date .
+
+train:2022-02-03 a train:Date .
+
+train:2022-02-04 a train:Date .
+
+train:2022-02-05 a train:Date .
+
+train:2022-02-06 a train:Date .
+
+train:2022-02-07 a train:Date .
+
+train:2022-02-08 a train:Date .
+
+train:2022-02-09 a train:Date .
+
+train:2022-02-10 a train:Date .
+
+train:2022-02-11 a train:Date .
+
+train:2022-02-12 a train:Date .
+
+train:2022-02-13 a train:Date .
+
+train:2022-02-14 a train:Date .
+
+train:2022-02-15 a train:Date .
+
+train:2022-02-16 a train:Date .
+
+train:2022-02-17 a train:Date .
+
+train:2022-02-18 a train:Date .
+
+train:2022-02-19 a train:Date .
+
+train:2022-02-20 a train:Date .
+
+train:2022-02-21 a train:Date .
+
+train:2022-02-22 a train:Date .
+
+train:2022-02-23 a train:Date .
+
+train:2022-02-24 a train:Date .
+
+train:2022-02-25 a train:Date .
+
+train:2022-02-26 a train:Date .
+
+train:2022-02-27 a train:Date .
+
+train:2022-02-28 a train:Date .
+
+train:2022-03-01 a train:Date .
+
+train:2022-03-02 a train:Date .
+
+train:2022-03-03 a train:Date .
+
+train:2022-03-04 a train:Date .
+
+train:2022-03-05 a train:Date .
+
+train:2022-03-06 a train:Date .
+
+train:2022-03-07 a train:Date .
+
+train:2022-03-08 a train:Date .
+
+train:2022-03-09 a train:Date .
+
+train:2022-03-10 a train:Date .
+
+train:2022-03-11 a train:Date .
+
+train:2022-03-12 a train:Date .
+
+train:2022-03-13 a train:Date .
+
+train:2022-03-14 a train:Date .
+
+train:2022-03-15 a train:Date .
+
+train:2022-03-16 a train:Date .
+
+train:2022-03-17 a train:Date .
+
+train:2022-03-18 a train:Date .
+
+train:2022-03-19 a train:Date .
+
+train:2022-03-20 a train:Date .
+
+train:2022-03-21 a train:Date .
+
+train:2022-03-22 a train:Date .
+
+train:2022-03-23 a train:Date .
+
+train:2022-03-24 a train:Date .
+
+train:2022-03-25 a train:Date .
+
+train:2022-03-26 a train:Date .
+
+train:2022-03-27 a train:Date .
+
+train:2022-03-28 a train:Date .
+
+train:2022-03-29 a train:Date .
+
+train:2022-03-30 a train:Date .
+
+train:2022-03-31 a train:Date .
+
+train:2022-04-01 a train:Date .
+
+train:2022-04-02 a train:Date .
+
+train:2022-04-03 a train:Date .
+
+train:2022-04-04 a train:Date .
+
+train:2022-04-05 a train:Date .
+
+train:2022-04-06 a train:Date .
+
+train:2022-04-07 a train:Date .
+
+train:2022-04-08 a train:Date .
+
+train:2022-04-09 a train:Date .
+
+train:2022-04-10 a train:Date .
+
+train:2022-04-11 a train:Date .
+
+train:2022-04-12 a train:Date .
+
+train:2022-04-13 a train:Date .
+
+train:2022-04-14 a train:Date .
+
+train:2022-04-15 a train:Date .
+
+train:2022-04-16 a train:Date .
+
+train:2022-04-17 a train:Date .
+
+train:2022-04-18 a train:Date .
+
+train:2022-04-19 a train:Date .
+
+train:2022-04-20 a train:Date .
+
+train:2022-04-21 a train:Date .
+
+train:2022-04-22 a train:Date .
+
+train:2022-04-23 a train:Date .
+
+train:2022-04-24 a train:Date .
+
+train:2022-04-25 a train:Date .
+
+train:2022-04-26 a train:Date .
+
+train:2022-04-27 a train:Date .
+
+train:2022-04-28 a train:Date .
+
+train:2022-04-29 a train:Date .
+
+train:2022-04-30 a train:Date .
+
+train:2022-05-01 a train:Date .
+
+train:2022-05-02 a train:Date .
+
+train:2022-05-03 a train:Date .
+
+train:2022-05-04 a train:Date .
+
+train:2022-05-05 a train:Date .
+
+train:2022-05-06 a train:Date .
+
+train:2022-05-07 a train:Date .
+
+train:2022-05-08 a train:Date .
+
+train:2022-05-09 a train:Date .
+
+train:2022-05-10 a train:Date .
+
+train:2022-05-11 a train:Date .
+
+train:2022-05-12 a train:Date .
+
+train:2022-05-13 a train:Date .
+
+train:2022-05-14 a train:Date .
+
+train:2022-05-15 a train:Date .
+
+train:2022-05-16 a train:Date .
+
+train:2022-05-17 a train:Date .
+
+train:2022-05-18 a train:Date .
+
+train:2022-05-19 a train:Date .
+
+train:2022-05-20 a train:Date .
+
+train:2022-05-21 a train:Date .
+
+train:2022-05-22 a train:Date .
+
+train:2022-05-23 a train:Date .
+
+train:2022-05-24 a train:Date .
+
+train:2022-05-25 a train:Date .
+
+train:2022-05-26 a train:Date .
+
+train:2022-05-27 a train:Date .
+
+train:2022-05-28 a train:Date .
+
+train:2022-05-29 a train:Date .
+
+train:2022-05-30 a train:Date .
+
+train:2022-05-31 a train:Date .
+
+train:2022-06-01 a train:Date .
+
+train:2022-06-02 a train:Date .
+
+train:2022-06-03 a train:Date .
+
+train:2022-06-04 a train:Date .
+
+train:2022-06-05 a train:Date .
+
+train:2022-06-06 a train:Date .
+
+train:2022-06-07 a train:Date .
+
+train:2022-06-08 a train:Date .
+
+train:2022-06-09 a train:Date .
+
+train:2022-06-10 a train:Date .
+
+train:2022-06-11 a train:Date .
+
+train:2022-06-12 a train:Date .
+
+train:2022-06-13 a train:Date .
+
+train:2022-06-14 a train:Date .
+
+train:2022-06-15 a train:Date .
+
+train:2022-06-16 a train:Date .
+
+train:2022-06-17 a train:Date .
+
+train:2022-06-18 a train:Date .
+
+train:2022-06-19 a train:Date .
+
+train:2022-06-20 a train:Date .
+
+train:2022-06-21 a train:Date .
+
+train:2022-06-22 a train:Date .
+
+train:2022-06-23 a train:Date .
+
+train:2022-06-24 a train:Date .
+
+train:2022-06-25 a train:Date .
+
+train:2022-06-26 a train:Date .
+
+train:2022-06-27 a train:Date .
+
+train:2022-06-28 a train:Date .
+
+train:2022-06-29 a train:Date .
+
+train:2022-06-30 a train:Date .
+
+train:2022-07-01 a train:Date .
+
+train:2022-07-02 a train:Date .
+
+train:2022-07-03 a train:Date .
+
+train:2022-07-04 a train:Date .
+
+train:2022-07-05 a train:Date .
+
+train:2022-07-06 a train:Date .
+
+train:2022-07-07 a train:Date .
+
+train:2022-07-08 a train:Date .
+
+train:2022-07-09 a train:Date .
+
+train:2022-07-10 a train:Date .
+
+train:2022-07-11 a train:Date .
+
+train:2022-07-12 a train:Date .
+
+train:2022-07-13 a train:Date .
+
+train:2022-07-14 a train:Date .
+
+train:2022-07-15 a train:Date .
+
+train:2022-07-16 a train:Date .
+
+train:2022-07-17 a train:Date .
+
+train:2022-07-18 a train:Date .
+
+train:2022-07-19 a train:Date .
+
+train:2022-07-20 a train:Date .
+
+train:2022-07-21 a train:Date .
+
+train:2022-07-22 a train:Date .
+
+train:2022-07-23 a train:Date .
+
+train:2022-07-24 a train:Date .
+
+train:2022-07-25 a train:Date .
+
+train:2022-07-26 a train:Date .
+
+train:2022-07-27 a train:Date .
+
+train:2022-07-28 a train:Date .
+
+train:2022-07-29 a train:Date .
+
+train:2022-07-30 a train:Date .
+
+train:2022-07-31 a train:Date .
+
+train:2022-08-01 a train:Date .
+
+train:2022-08-02 a train:Date .
+
+train:2022-08-03 a train:Date .
+
+train:2022-08-04 a train:Date .
+
+train:2022-08-05 a train:Date .
+
+train:2022-08-06 a train:Date .
+
+train:2022-08-07 a train:Date .
+
+train:2022-08-08 a train:Date .
+
+train:2022-08-09 a train:Date .
+
+train:2022-08-10 a train:Date .
+
+train:2022-08-11 a train:Date .
+
+train:2022-08-12 a train:Date .
+
+train:2022-08-13 a train:Date .
+
+train:2022-08-14 a train:Date .
+
+train:2022-08-15 a train:Date .
+
+train:2022-08-16 a train:Date .
+
+train:2022-08-17 a train:Date .
+
+train:2022-08-18 a train:Date .
+
+train:2022-08-19 a train:Date .
+
+train:2022-08-20 a train:Date .
+
+train:2022-08-21 a train:Date .
+
+train:2022-08-22 a train:Date .
+
+train:2022-08-23 a train:Date .
+
+train:2022-08-24 a train:Date .
+
+train:2022-08-25 a train:Date .
+
+train:2022-08-26 a train:Date .
+
+train:2022-08-27 a train:Date .
+
+train:2022-08-28 a train:Date .
+
+train:2022-08-29 a train:Date .
+
+train:2022-08-30 a train:Date .
+
+train:2022-08-31 a train:Date .
+
+train:2022-09-01 a train:Date .
+
+train:2022-09-02 a train:Date .
+
+train:2022-09-03 a train:Date .
+
+train:2022-09-04 a train:Date .
+
+train:2022-09-05 a train:Date .
+
+train:2022-09-06 a train:Date .
+
+train:2022-09-07 a train:Date .
+
+train:2022-09-08 a train:Date .
+
+train:2022-09-09 a train:Date .
+
+train:2022-09-10 a train:Date .
+
+train:2022-09-11 a train:Date .
+
+train:2022-09-12 a train:Date .
+
+train:2022-09-13 a train:Date .
+
+train:2022-09-14 a train:Date .
+
+train:2022-09-15 a train:Date .
+
+train:2022-09-16 a train:Date .
+
+train:2022-09-17 a train:Date .
+
+train:2022-09-18 a train:Date .
+
+train:2022-09-19 a train:Date .
+
+train:2022-09-20 a train:Date .
+
+train:2022-09-21 a train:Date .
+
+train:2022-09-22 a train:Date .
+
+train:2022-09-23 a train:Date .
+
+train:2022-09-24 a train:Date .
+
+train:2022-09-25 a train:Date .
+
+train:2022-09-26 a train:Date .
+
+train:2022-09-27 a train:Date .
+
+train:2022-09-28 a train:Date .
+
+train:2022-09-29 a train:Date .
+
+train:2022-09-30 a train:Date .
+
+train:2022-10-01 a train:Date .
+
+train:2022-10-02 a train:Date .
+
+train:2022-10-03 a train:Date .
+
+train:2022-10-04 a train:Date .
+
+train:2022-10-05 a train:Date .
+
+train:2022-10-06 a train:Date .
+
+train:2022-10-07 a train:Date .
+
+train:2022-10-08 a train:Date .
+
+train:2022-10-09 a train:Date .
+
+train:2022-10-10 a train:Date .
+
+train:2022-10-11 a train:Date .
+
+train:2022-10-12 a train:Date .
+
+train:2022-10-13 a train:Date .
+
+train:2022-10-14 a train:Date .
+
+train:2022-10-15 a train:Date .
+
+train:2022-10-16 a train:Date .
+
+train:2022-10-17 a train:Date .
+
+train:2022-10-18 a train:Date .
+
+train:2022-10-19 a train:Date .
+
+train:2022-10-20 a train:Date .
+
+train:2022-10-21 a train:Date .
+
+train:2022-10-22 a train:Date .
+
+train:2022-10-23 a train:Date .
+
+train:2022-10-24 a train:Date .
+
+train:2022-10-25 a train:Date .
+
+train:2022-10-26 a train:Date .
+
+train:2022-10-27 a train:Date .
+
+train:2022-10-28 a train:Date .
+
+train:2022-10-29 a train:Date .
+
+train:2022-10-30 a train:Date .
+
+train:2022-10-31 a train:Date .
+
+train:2022-11-01 a train:Date .
+
+train:2022-11-02 a train:Date .
+
+train:2022-11-03 a train:Date .
+
+train:2022-11-04 a train:Date .
+
+train:2022-11-05 a train:Date .
+
+train:2022-11-06 a train:Date .
+
+train:2022-11-07 a train:Date .
+
+train:2022-11-08 a train:Date .
+
+train:2022-11-09 a train:Date .
+
+train:2022-11-10 a train:Date .
+
+train:2022-11-11 a train:Date .
+
+train:2022-11-12 a train:Date .
+
+train:2022-11-13 a train:Date .
+
+train:2022-11-14 a train:Date .
+
+train:2022-11-15 a train:Date .
+
+train:2022-11-16 a train:Date .
+
+train:2022-11-17 a train:Date .
+
+train:2022-11-18 a train:Date .
+
+train:2022-11-19 a train:Date .
+
+train:2022-11-20 a train:Date .
+
+train:2022-11-21 a train:Date .
+
+train:2022-11-22 a train:Date .
+
+train:2022-11-23 a train:Date .
+
+train:2022-11-24 a train:Date .
+
+train:2022-11-25 a train:Date .
+
+train:2022-11-26 a train:Date .
+
+train:2022-11-27 a train:Date .
+
+train:2022-11-28 a train:Date .
+
+train:2022-11-29 a train:Date .
+
+train:2022-11-30 a train:Date .
+
+train:2022-12-01 a train:Date .
+
+train:2022-12-02 a train:Date .
+
+train:2022-12-03 a train:Date .
+
+train:2022-12-04 a train:Date .
+
+train:2022-12-05 a train:Date .
+
+train:2022-12-06 a train:Date .
+
+train:2022-12-07 a train:Date .
+
+train:2022-12-08 a train:Date .
+
+train:2022-12-09 a train:Date .
+
+train:2022-12-10 a train:Date .
+
+train:2022-12-11 a train:Date .
+
+train:2022-12-12 a train:Date .
+
+train:2022-12-13 a train:Date .
+
+train:2022-12-14 a train:Date .
+
+train:2022-12-15 a train:Date .
+
+train:2022-12-16 a train:Date .
+
+train:2022-12-17 a train:Date .
+
+train:2022-12-18 a train:Date .
+
+train:2022-12-19 a train:Date .
+
+train:2022-12-20 a train:Date .
+
+train:2022-12-21 a train:Date .
+
+train:2022-12-22 a train:Date .
+
+train:2022-12-23 a train:Date .
+
+train:2022-12-24 a train:Date .
+
+train:2022-12-25 a train:Date .
+
+train:2022-12-26 a train:Date .
+
+train:2022-12-27 a train:Date .
+
+train:2022-12-28 a train:Date .
+
+train:2022-12-29 a train:Date .
+
+train:2022-12-30 a train:Date .
+
+train:2022-12-31 a train:Date .
+
+train:209 a train:Weatherstation ;
+    foaf:has_name train:IJmond .
+
+train:215 a train:Weatherstation ;
+    foaf:has_name train:Voorschoten .
+
+train:225 a train:Weatherstation ;
+    foaf:has_name train:IJmuiden .
+
+train:235 a train:Weatherstation ;
+    foaf:has_name train:De_Kooy .
+
+train:240 a train:Weatherstation ;
+    foaf:has_name train:Schiphol .
+
+train:242 a train:Weatherstation ;
+    foaf:has_name train:Vlieland .
+
+train:248 a train:Weatherstation ;
+    foaf:has_name train:Wijdenes .
+
+train:249 a train:Weatherstation ;
+    foaf:has_name train:Birch_wood .
+
+train:251 a train:Weatherstation ;
+    foaf:has_name train:Hoorn_Terschelling .
+
+train:257 a train:Weatherstation ;
+    foaf:has_name train:Wijk_aan_Zee .
+
+train:258 a train:Weatherstation ;
+    foaf:has_name train:Houtribdijk .
+
+train:260 a train:Weatherstation ;
+    foaf:has_name train:De_Bilt .
+
+train:267 a train:Weatherstation ;
+    foaf:has_name train:Stavoren .
+
+train:269 a train:Weatherstation ;
+    foaf:has_name train:Lelystad .
+
+train:270 a train:Weatherstation ;
+    foaf:has_name train:Leeuwarden .
+
+train:273 a train:Weatherstation ;
+    foaf:has_name train:Marknesse .
+
+train:275 a train:Weatherstation ;
+    foaf:has_name train:Share .
+
+train:277 a train:Weatherstation ;
+    foaf:has_name train:Lauwersoog .
+
+train:278 a train:Weatherstation ;
+    foaf:has_name train:Heino .
+
+train:279 a train:Weatherstation ;
+    foaf:has_name train:Hoogeveen .
+
+train:280 a train:Weatherstation ;
+    foaf:has_name train:Elde .
+
+train:283 a train:Weatherstation ;
+    foaf:has_name train:Hopsel .
+
+train:285 a train:Weatherstation ;
+    foaf:has_name train:Huibertgat .
+
+train:286 a train:Weatherstation ;
+    foaf:has_name train:New_Beerta .
+
+train:290 a train:Weatherstation ;
+    foaf:has_name train:Twenthe .
+
+train:308 a train:Weatherstation ;
+    foaf:has_name train:Cadzand .
+
+train:310 a train:Weatherstation ;
+    foaf:has_name train:Vlissingen .
+
+train:312 a train:Weatherstation ;
+    foaf:has_name train:Oosterschelde .
+
+train:313 a train:Weatherstation ;
+    foaf:has_name train:Plain_of_De_Raan .
+
+train:315 a train:Weatherstation ;
+    foaf:has_name train:Hansweert .
+
+train:316 a train:Weatherstation ;
+    foaf:has_name train:Pair_of_scissors .
+
+train:319 a train:Weatherstation ;
+    foaf:has_name train:Westdorpe .
+
+train:323 a train:Weatherstation ;
+    foaf:has_name train:Wilhelminadorp .
+
+train:324 a train:Weatherstation ;
+    foaf:has_name train:Stavenisse .
+
+train:330 a train:Weatherstation ;
+    foaf:has_name train:Hoek_van_Holland .
+
+train:331 a train:Weatherstation ;
+    foaf:has_name train:Tholen .
+
+train:340 a train:Weatherstation ;
+    foaf:has_name train:Woensdrecht .
+
+train:343 a train:Weatherstation ;
+    foaf:has_name train:Rotterdam_Geulhaven .
+
+train:344 a train:Weatherstation ;
+    foaf:has_name train:Rotterdam .
+
+train:348 a train:Weatherstation ;
+    foaf:has_name train:Cabauw_Mast .
+
+train:350 a train:Weatherstation ;
+    foaf:has_name train:Gilze-Rijen .
+
+train:356 a train:Weatherstation ;
+    foaf:has_name train:Herwijnen .
+
+train:370 a train:Weatherstation ;
+    foaf:has_name train:Eindhoven .
+
+train:375 a train:Weatherstation ;
+    foaf:has_name train:Volkel .
+
+train:377 a train:Weatherstation ;
+    foaf:has_name train:Ell .
+
+train:380 a train:Weatherstation ;
+    foaf:has_name train:Maastricht .
+
+train:391 a train:Weatherstation ;
+    foaf:has_name train:Arcen .
+
+train:Air_Pressure a owl:Class ;
+    rdfs:subClassOf train:Weather_Phenomenon .
+
+train:Precipitation a owl:Class ;
+    rdfs:subClassOf train:Weather_Phenomenon .
+
+train:Temperature a owl:Class ;
+    rdfs:subClassOf train:Weather_Phenomenon .
+
+train:Train_Company a owl:Class .
+
+train:Train_ID a owl:Class .
+
+train:Train_Station a owl:Class .
+
+train:Trip a owl:Class .
+
+train:Visibility a owl:Class ;
+    rdfs:subClassOf train:Weather_Phenomenon .
+
+train:Weather_Station a owl:Class .
+
+train:Wind a owl:Class ;
+    rdfs:subClassOf train:Weather_Phenomenon .
+
+train:Weather_Phenomenon a owl:Class .
+
+train:Date a owl:Class .
+
