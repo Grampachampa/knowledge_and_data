@@ -4,7 +4,6 @@ import folium
 import math
 from PIL import Image
 import io
-from rdflib import Graph, RDF, RDFS, Namespace, Literal, URIRef
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
@@ -56,27 +55,41 @@ for id, coordinate in coordinates.items():
 sparql = SPARQLWrapper("http://dbpedia.org/sparql")
 sparql.setQuery(f"""
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-    PREFIX georss: <http://www.georss.org/georss/>
-    PREFIX yago: <http://dbpedia.org/class/yago/>
-    PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
-    PREFIX wikidata: <http://www.wikidata.org/entity/>
-    PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX georss: <http://www.georss.org/georss/>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX wikidata: <http://www.wikidata.org/entity/>
+PREFIX dbp: <http://dbpedia.org/property/>
 
-    SELECT DISTINCT ?location ?name ?lat ?long
-    WHERE {{
+SELECT DISTINCT ?location ?name ?lat ?long
+WHERE {{
+    {{
         ?location a wikidata:Q719456;
-                dbp:style ?style;
-                rdfs:label ?name;
-                geo:lat ?lat;
-                geo:long ?long.
+                  dbp:style ?style;
+                  rdfs:label ?name;
+                  geo:lat ?lat;
+                  geo:long ?long.
         FILTER (
             contains(?style, "NS") &&
             langMatches(lang(?style),'en') &&
             langMatches(lang(?name),'en') &&
             ?lat > 50.709572 && ?lat < 54.092432 &&
-            ?long > 2.950305 && ?long < 7.547854
+            ?long > 2.950305 && ?long < 7.547854  
+        )
+    }} UNION {{
+        BIND(<http://dbpedia.org/resource/Amsterdam_Centraal_station> AS ?location)
+        ?location dbp:style ?style;
+                rdfs:label ?name;
+                geo:lat ?lat;
+                geo:long ?long.
+        FILTER (
+            langMatches(lang(?style),'en') &&
+            langMatches(lang(?name),'en') &&
+            ?lat > 50.709572 && ?lat < 54.092432 &&
+            ?long > 2.950305 && ?long < 7.547854  
         )
     }}
+}}
     LIMIT 401
 """)
 stationcoords = {}
@@ -105,7 +118,7 @@ trainstation_id_file = os.path.join(os.path.join(os.path.dirname(current_dir), "
 with open(trainstation_id_file, 'r') as ids:
     iddict = csv.DictReader(ids)
     for row in iddict:
-        station_ids[row["STATION"]] = row["CODE"]
+        station_ids[row["STATION"]] = row["CODE"].upper()
 
 station_ids_copy = station_ids.copy()
 for coordstation in stationcoords:
